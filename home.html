@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankur Kundu - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff, #00c6ff);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        .view-project-button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+            font-weight: bold;
+            border: 2px solid transparent;
+        }
+
+        .view-project-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            border: 2px solid #007bff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border 0.3s;
+        }
+
+        form input:focus, form textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        form button {
+            padding: 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #0056b3;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sankur Kundu</h1>
+        <p>Web Developer |  Aspiring Cybersecurity Engineer</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#communication">Communication</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>With a strong foundation in data structures, algorithms, and programming languages, I am constantly exploring the latest advancements in artificial intelligence and machine learning. Throughout my academic journey, I have developed a diverse set of skills, including web development, software engineering, and project management. I am particularly interested in the intersection of technology and real-world problem-solving, which has led me to undertake several exciting projects that showcase my technical expertise and innovative mindset.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills & Abilities</h2>
+            <h3>Programming Skills</h3>
+            <ul>
+                <li><strong>Front-end Development:</strong> HTML, CSS, JavaScript, React, Bootstrap, Responsive Design</li>
+                <li><strong>Programming Languages:</strong> Python, C++, Java, SQL</li>
+                <li><strong>Cloud Computing:</strong> AWS, Azure</li>
+                <li><strong>Tools:</strong> VS Code, Android Studio, Jupyter-Notebook, MySQL</li>
+            </ul>
+            <h3>Other Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/Bootstrap</li>
+                <li>Azure</li>
+                <li>VS Code</li>
+                <li>Android Studio</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>1. NEXT - Transforming Travel Navigation</h3>
+            <a class="view-project-button" href="https://zionadmirer.github.io/NEXT/home.html" target="_blank">View Project</a>
+            <p>The NEXT website is a modern navigation platform designed to enhance the travel experience for users in railway stations. It features interactive maps, real-time information, and user account management, allowing travelers to easily navigate and access essential services. The platform emphasizes accessibility and responsiveness, ensuring that all users, including those with disabilities, can enjoy a seamless experience across various devices.</p>
+            <ul>
+                <li>Developed the user interface and interactive features using HTML, CSS, and JavaScript.</li>
+                <li>Implemented user account management for secure registration and login.</li>
+                <li>Created interactive maps and navigation tools providing real-time information.</li>
+                <li>Applied responsive design techniques for seamless user experience across devices.</li>
+                <li>Integrated accessibility best practices for inclusivity.</li>
+                <li>Designed feedback and support sections for user communication.</li>
+                <li>Conducted user testing sessions to gather feedback and refine features.</li>
+            </ul>
+
+            <h3>2. Deutschland-Website: A Showcase of German Culture, History, and Traditions</h3>
+            <a class="view-project-button" href="https://zionadmirer.github.io/Deutschland/germany.html" target="_blank">View Project</a>
+            <p>Contributed to the front-end development of the Deutschland-Website using HTML, CSS, and JavaScript. Designed intuitive user experiences for key features like the homepage, regional sections, and cultural spotlights.</p>
+            <ul>
+                <li>Integrated advanced front-end functionalities such as a looping video in the hero section.</li>
+                <li>Ensured smooth navigation to enhance user engagement.</li>
+            </ul>
+
+            <h3>3. Sankur Website: A Tribute to Tech Personalities</h3>
+            <a class="view-project-button" href="https://zionadmirer.github.io/SANKUR/home.html" target="_blank">View Project</a>
+            <p>Contributed to the front-end development of the Sankur website using HTML and CSS, creating a visually appealing and modern design that highlights tech biographies.</p>
+            <ul>
+                <li>Designed intuitive user experiences for key features such as biography sections and embedded video content.</li>
+                <li>Integrated advanced front-end functionalities including a responsive layout and interactive content modules.</li>
+            </ul>
+
+            <h3>4. MAKERS - Tailoring and Stitching Services Website (Ongoing)</h3>
+            <p>Developed the user interface and interactive features of a website showcasing MAKERS' tailoring and stitching services using HTML, CSS, and JavaScript.</p>
+            <ul>
+                <li>Designed intuitive navigation menus and visually appealing layouts.</li>
+                <li>Implemented responsive design techniques for optimal user experience.</li>
+                <li>Incorporated accessibility best practices.</li>
+                <li>Developed interactive features like fabric selection tools and a custom measurement tool.</li>
+                <li>Created a virtual fitting room feature for enhanced online shopping.</li>
+                <li>Integrated live chat functionality for real-time support.</li>
+                <li>Developed a user account system for personalized experiences.</li>
+                <li>Implemented a review and rating system for customer feedback.</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <h3>BTech in Computer Science and Engineering (AIML)</h3>
+            <p>Expected Graduation: May 2026</p>
+            <p>Institute of Engineering and Management, Kolkata</p>
+            <p><strong>Courses:</strong> Data Structures & Algorithms, Java OOP, Web Applications, C++ Program Design, Generative AI</p>
+            <h3>Higher Secondary - Science</h3>
+            <p>Doon International School, Bhubaneswar</p>
+            <h3>Secondary - Science</h3>
+            <p>DAV Public School, CDA, Cuttack</p>
+        </section>
+        <section id="communication">
+            <h2>Communication</h2>
+            <p>Excellent communication skills enable me to collaborate with clients, stakeholders, and cross-functional teams to deliver high-quality results.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Sankur Kundu </p>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Thank you for your message, we will get back to you soon!');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
